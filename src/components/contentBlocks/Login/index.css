@@ -1,0 +1,13 @@
+﻿.login-form {
+    max-width: 500px;
+    min-height: 570px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin: 80px auto 100px;
+    transition: 0.3;
+}
+
+.login__form:hover {
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+}
+

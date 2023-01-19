@@ -1,0 +1,58 @@
+.header-bottom__ref {
+    transition: 0.3s;
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.header-bottom__ref:hover {
+    color: #000000;
+}
+
+.header-bottom__button {
+    display: flex;
+    justify-content: end;
+}
+
+.header-top-email-phone {
+    justify-content: end;
+}
+
+
+.burger-menu-col {
+    display: flex;
+    justify-content: end;
+}
+
+.burger-menu {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 170px;
+}
+
+.refs-col {
+    align-items: center;
+}
+
+.burger-content {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06), 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media(min-width: 991px) {
+    .burger-menu, .btn-top {
+        display: none;
+    }
+} /* logo-icon */
+
+@media(max-width: 991px) {
+    .header-refs, .header-bottom__button, .contacts {
+        display: none;
+    }
+    .btn-top {
+        margin-top: 20px;
+    }
+    .refs-col {
+        align-items: flex-start;
+    }
+}
+
