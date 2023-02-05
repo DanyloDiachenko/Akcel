@@ -116,7 +116,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <hr style={{ border: '2px solid #3D3F4E', marginTop: '150px' }} />
-                    <div className="text-white text-center pb-4 pt-4 h6">Akcel Crowdfunding & Charity Website  -   © 2021 by Peterdraw</div>
+                    <div className="text-white text-center pb-4 pt-4 h6">Akcel Crowdfunding & Charity Website  -   © 2023 by Peterdraw</div>
                 </div>
             </div>
         </footer>
