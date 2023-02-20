@@ -35,7 +35,11 @@
 }
 
 .burger-content {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06), 0px 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.06), 0px 10px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
 }
 
 @media(min-width: 991px) {
